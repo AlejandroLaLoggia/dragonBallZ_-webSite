@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/esfera_ico.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Martel+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+
+    <!-- Link de la fuente utilizada https://www.dafont.com/es/ben-palmer.d1265 -->
+    <title>Dragon Ball Z</title>
+</head>
+<body>
+    <header class="header" id="header">
+    </header>
+
+    <main class="main__registro">
+        
+        <div class="registro">
+          <h2 class="registro__h2">REGISTRO</h2>
+            <form class="registro_form" action="#" method="post">
+                <fieldset class="registro__fieldset">
+                    <div class="registro__container">
+                        <label class="registro__label" for="nombre">Nombre</label>
+                        <input class="registro__name" type="text" id="nombre"  required>
+                    </div>
+                    <div class="registro__container">
+                        <label class="registro__label" for="email">Email</label>
+                        <input class="registro__email" type="email" id="email"  required>
+                    </div>
+                    <div class="registro__container registro__container--checkbox">
+                        <input class="registro__noti" type="checkbox" id="notificaciones">
+                        <label class="registro__label--checkbox" for="notificaciones">Quiero recibir notificaciones</label>
+                    </div>
+                    <div class="registro__container">
+                        <label class="registro__label" for="comentarios">Comentarios</label>
+                        <textarea class="registro__text" id="comentarios" COLS=40></textarea>
+                    </div>
+                    <div class="registro__container--btn">
+                        <button class="registro__button" type="submit">Enviar</button>
+                    </div>
+
+                </fieldset>
+            </form>
+          
+        </div>
+    
+    </main>
+</body>
+</html>
